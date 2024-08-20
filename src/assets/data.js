@@ -1,0 +1,42 @@
+export const data = [
+    {
+        question: "What is the capital of France?",
+        option1: "Rome",
+        option2: "London",
+        option3: "Paris",
+        option4: "Berlin",
+        ans:3,
+    },
+    {
+        question: "Which device is required for internet connection?",
+        option1: "Modem",
+        option2: "Router",
+        option3: "Switch",
+        option4: "Hub",
+        ans:1,
+    },
+    {
+        question: "Which of the following planets in our solar system is known as the Red Planet?",
+        option1: "Saturn",
+        option2: "Jupiter",
+        option3: "Mars",
+        option4: "Earth",
+        ans:3,
+    },
+    {
+        question: "What is the chemical symbol for gold?",
+        option1: "Pb",
+        option2: "Hg",
+        option3: "Au",
+        option4: "Ag",
+        ans:3,
+    },
+    {
+        question: "Which of the following musicians is known as the King of Rock and Roll?",
+        option1: "Jerry Lee Lewis",
+        option2: "Little Richard",
+        option3: "Chuck Berry",
+        option4: "Elvis Presley",
+        ans:4,
+    },
+];

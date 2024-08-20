@@ -1,0 +1,121 @@
+
+.container{
+    width: 650px;
+    margin: auto;
+    margin-top: 10px 10px;
+    background-color: rgb(207, 215, 222);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container h1{
+    font-size: 36px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background: gray;
+}
+
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.container button{
+    padding-top: 2px;
+    margin:0 auto;
+    width: 250px;
+    height: 65px;
+    background: purple;
+    color: azure;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.container .index{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container .correct{
+    background: white;
+    background-color: rgb(6, 132, 6);
+}
+
+.container .wrong{
+    background: white;
+    background-color: rgb(193, 6, 6);
+}
+
+
+.share-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    gap: 30px;
+  }
+
+  .share-score button {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 -5px; 
+  }
+  
+  .share-score .facebook {
+    background-color: #4267B2;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .share-score  .twitter {
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .share-score .linkedin {
+    background-color: #0072b1;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
